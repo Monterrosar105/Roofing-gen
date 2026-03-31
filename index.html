@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -23,8 +23,9 @@
       <nav class="main-nav" aria-label="Main">
         <a href="#home">Home</a>
         <a href="#services">Services</a>
-        <a href="#trust">Reviews</a>
         <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#testimonials">Reviews</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -37,8 +38,9 @@
       <nav class="mobile-nav" aria-label="Mobile Navigation">
         <a href="#home" class="mobile-nav-link">Home</a>
         <a href="#services" class="mobile-nav-link">Services</a>
-        <a href="#trust" class="mobile-nav-link">Reviews</a>
         <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+        <a href="#testimonials" class="mobile-nav-link">Reviews</a>
         <a href="#contact" class="mobile-nav-link">Contact</a>
       </nav>
     </div>
@@ -53,7 +55,7 @@
         <p class="lead">Repairs, installation, maintenance — Quality workmanship guaranteed. 🏠</p>
         <div class="hero-ctas">
           <a class="btn btn-primary" href="#contact">Get Free Inspection</a>
-          <a class="btn btn-outline btn-whatsapp" href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+          <a class="btn btn-outline btn-whatsapp" href="https://wa.me/15552345678" target="_blank" rel="noopener noreferrer">
             <img class="btn-icon" src="images/bullets/whatsapp.png" alt="WhatsApp logo" />
             Message on WhatsApp
           </a>
@@ -69,7 +71,7 @@
         <div class="services-grid">
           <article class="card service-card">
             <div class="card-icon" aria-hidden="true">
-              <img src="images/services/lawnmower.png" alt="Roof Repair icon" class="icon-img">
+              <img src="images/services/hammer.png" alt="Roof Repair icon" class="icon-img">
             </div>
             <h3>Roof Repair</h3>
             <p>Fast response to leaks, damaged shingles, and storm damage. We diagnose and fix problems to protect your home.</p>
@@ -83,7 +85,7 @@
 
           <article class="card service-card">
             <div class="card-icon" aria-hidden="true">
-              <img src="images/services/trimming.png" alt="Roof Installation icon" class="icon-img">
+              <img src="images/services/roofing.png" alt="Roof Installation icon" class="icon-img">
             </div>
             <h3>New Installation</h3>
             <p>Complete roof installation for new construction and replacements. Expert craftsmanship with premium materials.</p>
@@ -97,7 +99,7 @@
 
           <article class="card service-card">
             <div class="card-icon" aria-hidden="true">
-              <img src="images/services/clean-up.png" alt="Inspection icon" class="icon-img">
+              <img src="images/services/magnifier.png" alt="Inspection icon" class="icon-img">
             </div>
             <h3>Inspections & Maintenance</h3>
             <p>Regular inspections to catch problems early. Preventive maintenance extends your roof's lifespan.</p>
@@ -151,43 +153,49 @@
       </div>
     </section>
 
-    <section id="trust" class="section trust-signals">
+    <section id="testimonials" class="section testimonials">
       <div class="container">
         <p class="eyebrow">Why Choose Us</p>
         <h2>Trusted by Homeowners</h2>
-        <p class="muted-lead">See what our satisfied clients are saying about TownCity Roofing.</p>
-
-        <div class="testimonials-grid">
-          <article class="testimonial-card">
+        <p class="testimonials-intro">See what our satisfied clients are saying about TownCity Roofing.</p>
+        
+        <div class="testimonials-carousel">
+          <article class="testimonial">
             <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"Leak fixed in one day! Professional crew, clean work, and fair pricing. Highly recommend!"</p>
-            <div class="testimonial-author">David K.</div>
-            <div class="testimonial-subtitle">Verified Customer</div>
+            <p class="quote">"Leak fixed in one day! Professional crew, clean work, and fair pricing. Highly recommend!"</p>
+            <div class="customer-info">
+              <strong>David K.</strong>
+              <span>Verified Customer</span>
+            </div>
           </article>
-          <article class="testimonial-card">
+          <article class="testimonial">
             <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"Called for emergency storm damage — they showed up same day and got it fully repaired within 48 hours."</p>
-            <div class="testimonial-author">Michelle P.</div>
-            <div class="testimonial-subtitle">Verified Customer</div>
+            <p class="quote">"Called for emergency storm damage — they showed up same day and got it fully repaired within 48 hours."</p>
+            <div class="customer-info">
+              <strong>Michelle P.</strong>
+              <span>Verified Customer</span>
+            </div>
           </article>
-          <article class="testimonial-card">
+          <article class="testimonial">
             <div class="stars">★★★★★</div>
-            <p class="testimonial-text">"New roof looks amazing. The crew was punctual, professional, and left no mess. Best investment for my home!"</p>
-            <div class="testimonial-author">Robert L.</div>
-            <div class="testimonial-subtitle">Verified Customer</div>
+            <p class="quote">"New roof looks amazing. The crew was punctual, professional, and left no mess. Best investment for my home!"</p>
+            <div class="customer-info">
+              <strong>Robert L.</strong>
+              <span>Verified Customer</span>
+            </div>
           </article>
         </div>
 
-        <div class="trust-stats">
-          <div class="stat-item">
+        <div class="testimonials-stats">
+          <div class="stat">
             <div class="stat-number">4.9/5</div>
             <div class="stat-label">Average Rating</div>
           </div>
-          <div class="stat-item">
+          <div class="stat">
             <div class="stat-number">1000+</div>
             <div class="stat-label">Roofs Installed</div>
           </div>
-          <div class="stat-item">
+          <div class="stat">
             <div class="stat-number">10+ yrs</div>
             <div class="stat-label">In Business</div>
           </div>
@@ -225,8 +233,8 @@
         <p class="sub"></p>
 
         <div class="contact-ctas">
-          <a class="btn btn-primary" href="#contact" title="Contact TownCity Roofing">Book Inspection</a>
-          <a class="btn btn-outline btn-whatsapp" href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+          <a class="btn btn-primary" href="tel:+1-555-234-5678" title="Call TownCity Roofing">Call for Free Inspection</a>
+          <a class="btn btn-outline btn-whatsapp" href="https://wa.me/15552345678" target="_blank" rel="noopener noreferrer">
             <img class="btn-icon" src="images/bullets/whatsapp.png" alt="WhatsApp logo" />
             Message on WhatsApp
           </a>
@@ -237,8 +245,7 @@
     </section>
   </main>
 
-  <!-- Sticky WhatsApp Button (Mobile Only) -->
-  <a href="https://wa.me/" class="sticky-whatsapp" target="_blank" rel="noopener noreferrer" title="Message us on WhatsApp">
+  <a href="https://wa.me/15552345678" class="sticky-whatsapp" target="_blank" rel="noopener noreferrer" title="Message us on WhatsApp">
     <img src="images/bullets/whatsapp.png" alt="WhatsApp" />
   </a>
 
@@ -249,7 +256,6 @@
   </footer>
 
   <script>
-    // Mobile menu toggle
     const menuToggle = document.querySelector('.menu-toggle');
     const mobileNav = document.querySelector('.mobile-nav');
     const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
@@ -260,7 +266,6 @@
       mobileNav.classList.toggle('active');
     });
 
-    // Close menu when a link is clicked
     mobileNavLinks.forEach(link => {
       link.addEventListener('click', () => {
         menuToggle.setAttribute('aria-expanded', 'false');
@@ -268,7 +273,6 @@
       });
     });
 
-    // Close menu when clicking outside
     document.addEventListener('click', (e) => {
       if (!e.target.closest('.header-inner')) {
         menuToggle.setAttribute('aria-expanded', 'false');
